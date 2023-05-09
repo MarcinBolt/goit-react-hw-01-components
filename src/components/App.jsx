@@ -4,8 +4,7 @@ import user from './Profile/user.json';
 
 
 
-export const App = () => {
-  return (
+export const App = () =>  (
     // <div
     //   style={{
     //     height: '100vh',
@@ -26,4 +25,3 @@ export const App = () => {
       stats={user.stats}
     />
   );
-};

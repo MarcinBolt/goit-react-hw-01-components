@@ -1,8 +1,6 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   align-items: center;
   align-content: center;
