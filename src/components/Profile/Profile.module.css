@@ -5,8 +5,7 @@
   align-items: center;
   justify-content: space-between;
   width: 300px;
-  height: fit-content;
-  margin-block: 20px;
+  margin: 20px auto;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 0px rgba(181, 181, 181, 0.75);
   -webkit-box-shadow: 0px 0px 10px 0px rgba(181, 181, 181, 0.75);
