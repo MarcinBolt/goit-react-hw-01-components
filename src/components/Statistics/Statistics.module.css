@@ -4,17 +4,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 350px;
-  margin: 20px auto;
+  width: 500px;
+  margin: 50px auto;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 0px rgba(181, 181, 181, 0.75);
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(181, 181, 181, 0.75);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(181, 181, 181, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(160, 160, 160, 0.80);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(160, 160, 160, 0.80);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(160, 160, 160, 0.80);
 }
 
 .title {
-  font-size: 22px;
-  padding-block: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  padding-block: 20px;
 }
 .statList {
   display: flex;
@@ -28,18 +29,17 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-block: 5px;
-  border: 1px whitesmoke solid;
+  padding-block: 20px;
+  border: 1px rgba(100, 100, 100, 0.4) solid;
 }
 .label {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
-  text-shadow: -1px 0 rgba(100, 100, 100, 1), 0 1px rgba(100, 100, 100, 1),
-    1px 0 rgba(100, 100, 100, 1), 0 -1px rgba(100, 100, 100, 1);
+  text-shadow: 0px 0px 10px #000000, 0px 0px 7px #000000, 0px 0px 4px #000000,
+    0px 0px 3px #000000;
 }
 .percentage {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
-  text-shadow: -1px 0 rgba(100, 100, 100, 1), 0 1px rgba(100, 100, 100, 1),
-    1px 0 rgba(100, 100, 100, 1), 0 -1px rgba(100, 100, 100, 1);
+  text-shadow: 0px 0px 8px #000000, 0px 0px 5px #000000, 0px 0px 2px #000000;
 }
