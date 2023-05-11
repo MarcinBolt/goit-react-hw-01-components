@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
-// import data from './data.json';
 import { getRandomHexColor } from 'view/get-random-hex-color';
 
 export const Statistics = ({ title = '', stats }) => (
