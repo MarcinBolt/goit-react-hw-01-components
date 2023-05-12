@@ -9,19 +9,6 @@ import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactions.json';
 
 export const App = () => (
-  // <div
-  //   style={{
-  //     height: '100vh',
-  //     display: 'flex',
-  //     justifyContent: 'center',
-  //     alignItems: 'center',
-  //     fontSize: 40,
-  //     color: '#010101',
-  //   }}
-  // >
-  //   React homework template
-  // </div>
-
   <Fragment>
     <Profile
       username={user.username}
