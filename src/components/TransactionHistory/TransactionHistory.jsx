@@ -14,7 +14,7 @@ export const TransactionHistory = ({ items }) => (
       {items.map(i => (
         <tr
           className={`${css.transactionHistory__item} ${
-            items.indexOf(i) % 2 ? css.darkBackground : css.lightBackground
+            i % 2 ? css.darkBackground : css.lightBackground
           }`}
           key={i.id}
         >
