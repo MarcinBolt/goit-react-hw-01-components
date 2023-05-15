@@ -11,10 +11,10 @@ export const TransactionHistory = ({ items }) => (
       </tr>
     </thead>
     <tbody>
-      {items.map(i => (
+      {items.map((i, index) => (
         <tr
           className={`${css.transactionHistory__item} ${
-            i % 2 ? css.darkBackground : css.lightBackground
+            index % 2 ? css.darkBackground : css.lightBackground
           }`}
           key={i.id}
         >
